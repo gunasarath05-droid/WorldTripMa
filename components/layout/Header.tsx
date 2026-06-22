@@ -24,9 +24,9 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 -mt-6 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-primary shadow-md py-4 h-[12%]"
+          ? "bg-primary shadow-md py-4"
           : "bg-gradient-to-b from-black/60 to-transparent py-4"
       }`}
     >
@@ -35,11 +35,11 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 z-50">
             <Image
-              src="/images/WT_Logo_without_BG.png"
+              src="/images/WT_Logo_BG.png"
               alt="World Trip"
               width={200}
-              height={65}
-              className=" h-24 md:h-28 w-auto object-contain"
+              height={200}
+              className="object-contain h-12 md:h-14 w-auto"
               priority
             />
           </Link>
