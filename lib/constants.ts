@@ -8,15 +8,15 @@ export const NAV_LINKS = [
 ];
 
 export const CONTACT_INFO = {
-    phone1: '9994991702',
-    phone2: '9994881802',
-    whatsapp: '919994991702', // Included country code 91
+    phone1: '7092099044',
+    phone2: '',
+    whatsapp: '917092099044', // Included country code 91
     email: 'Worldtripmaa@gmail.com',
     address: '715A 7th floor, Spencer Plaza Mall, Anna Salai, Chennai, Tamil Nadu 600002',
 };
 
 export const SOCIAL_LINKS = [
-    { label: 'Instagram', href: '#' },
+    { label: 'Instagram', href: 'https://www.instagram.com/_world__trip__?igsh=and1c2liNm0za250' },
     { label: 'Facebook', href: '#' },
     { label: 'LinkedIn', href: '#' },
     { label: 'Twitter', href: '#' },
