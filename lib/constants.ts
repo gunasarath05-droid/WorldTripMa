@@ -20,5 +20,5 @@ export const SOCIAL_LINKS = [
     { label: 'Facebook', href: '#' },
     { label: 'LinkedIn', href: '#' },
     { label: 'Twitter', href: '#' },
-    { label: 'WhatsApp', href: `https://wa.me/919994991702` },
+    { label: 'WhatsApp', href: `https://wa.me/917092099044` },
 ];
